@@ -1,0 +1,286 @@
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flexbox;
+    background-color: antiquewhite;
+}
+.instructions{
+    align-items: flex-start;
+    justify-content: left;
+}
+.headline{
+    text-align: left;
+    padding-left: 2rem;
+}
+a{
+    text-decoration: none;
+}
+.list{
+    text-align: left;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 2rem;
+}
+.image{
+    height: 200px;
+    font-weight: 200px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    background-color:rgb(222, 10, 10);
+}
+.yellow{
+    background-color:rgb(223, 206, 11);
+}
+.green{
+    background-color: rgb(80, 216, 80);
+}
+.blue{
+    background-color:dodgerblue;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: aquamarine;
+}
+.box{
+    margin-left: 10px;
+    justify-content: left;
+    padding-left: 2rem;
+    padding-right: 70rem;
+    align-content:space-evenly;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-right: 22rem;
+    background-color: lightgrey;
+}
+
+.box2{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: left;
+    background-color: lightgrey;
+}
+#review{
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: lightgrey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100;
+    right: 0;
+    height: 100px;
+    padding-top: 1rem;
+}
+.btn-contact{
+    background-color: dodgerblue;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 0px;
+    opacity: 0.7;
+}
+.btn-contact a{
+    color: white;
+}
+.btn-contact:hover{
+    opacity: 1;
+}
+@media(max-width:450px){
+.footer{
+    width:100%
+}
+.box{
+    width:100%;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+}
+.box1{
+    width:250px;
+    margin-right: 2rem;
+    text-align: left;
+    font-size: xx-small;
+    border-radius: 0%;
+    
+}
+#review{
+    width:240px;
+    margin-right: 2rem;
+    text-align: left;
+    font-size: xx-small;
+    border-radius: 0%;
+}
+.box2{
+    text-align: left;
+    font-size: xx-small;
+    border-radius: 0%;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 2rem;
+}
+.btn-container{
+    justify-content: center;
+    display: flex;
+    width:100%;
+
+}
+.line-one{
+    justify-content: center;
+    width: fit-content;
+    margin-left: 2rem;
+
+}
+.line-2{
+    justify-content: center;
+    width:178px;
+    margin-right: 0.5rem;
+}
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flexbox;
+    background-color: rgb(215, 250, 241);
+}
+h1{
+    width: 100%;
+}
+.contactForm{
+    margin: 0;
+    padding: 0;
+}
+.input{
+    padding: 0;
+}
+.btn-home{
+    
+    padding-right: 0.5rem;
+    width: 0vw;
+}
+.btn-submit{
+    width:0vw;
+    padding-right: 10rem;
+
+}
+.buttons{
+    padding: 1rem;
+}
+}
+.contactForm{
+    background-color: white;
+    padding: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.contactForm h1{
+    margin-bottom:2rem;
+    color: dodgerblue;
+}
+.container1{
+    display: flex;
+    background-color:white;
+    height: 100vh;
+}
+.contactForm .form{
+    height: 1vh;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 2rem;
+}
+.input{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color:white;
+    height:60vh;
+    margin: 1rem;
+    padding: 1rem;
+}
+.btn-submit{
+    padding: 0.5rem;
+    
+    border-radius: 25px;
+    background-color: dodgerblue;
+    color: white;
+    opacity: 0.7;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.btn-submit:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.form-control{
+    padding: 0.5rem;
+    border-radius: 15px;
+    width: 30vw;
+
+}
+.btn-home{
+    background-color: dodgerblue;
+    padding: 0.5rem;
+    
+    border-radius: 25px;
+    opacity: 0.7;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.btn-home a{
+    color: white;
+}
+.btn-home:hover{
+    opacity: 1;
+    padding: 0.5rem;
+}
+.buttons{
+    display: flex;
+    padding: 1;
+}
+
+/*@media(max-width:450){
+.contactForm{
+    margin: 0;
+    padding: 0;
+}
+.input{
+    padding: 0;
+}
+.btn-home{
+    
+    padding-right: 0.5rem;
+    width: 0vw;
+}
+.btn-submit{
+    width:0vw;
+    padding-right: 10rem;
+
+}
+.buttons{
+    padding: 1rem;
+}
+.contactForm .form{
+    font-size: 10px;
+}
+}*/
