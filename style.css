@@ -259,28 +259,41 @@ h1{
     padding: 1;
 }
 
-/*@media(max-width:450){
-.contactForm{
+.body{
     margin: 0;
     padding: 0;
 }
-.input{
-    padding: 0;
-}
-.btn-home{
-    
-    padding-right: 0.5rem;
-    width: 0vw;
-}
-.btn-submit{
-    width:0vw;
-    padding-right: 10rem;
+    img{
+        height: 65vh;
+        width: 100vw;
+    }
 
-}
-.buttons{
-    padding: 1rem;
-}
-.contactForm .form{
-    font-size: 10px;
-}
-}*/
+    .homeButton{
+        padding-left:10rem;
+    }
+    button {
+        height: 80px;
+        width: 200px;
+        background-color: crimson;
+        border-radius: 40px;
+        border: 4px solid black;
+        color: white;
+        text-decoration: none;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .contactUs{
+        font-weight: bold;
+        font-style: italic;
+        font-size: 18px;
+        border: 2px solid black;
+        background-color: dodgerblue;
+        color: whitesmoke;
+        width: 100vw;
+        background-image: url("https://th.bing.com/th/id/OIP.VHsUmr1YQ_TDle8aFQL-5wAAAA?rs=1&pid=ImgDetMain");
+        text-align: center;
+    }
