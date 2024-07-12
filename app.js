@@ -52,7 +52,7 @@ function checkAns(idx){
         }
         console.log("same value");
     }else{
-        h3.innerHTML=`Game Over!Your score was [<b>${level}</b>] <br> Press Start key to start the game!`;
+        h3.innerHTML=`Game Over!Your score was [<b>${level}</b>] <br> Press button which flashed to continue the game!`;
         document.querySelector("body").style.backgroundColor="red";
         setTimeout(function(){
             document.querySelector("body").style.backgroundColor="antiquewhite";
