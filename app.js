@@ -51,12 +51,13 @@ function checkAns(idx){
             setTimeout(levelUp,1000);
         }
         console.log("same value");
+        h3.innerText=" "
     }else{
         h3.innerHTML=`Game Over!Your score was [<b>${level}</b>] <br> Press button which flashed to continue the game!`;
         document.querySelector("body").style.backgroundColor="red";
         setTimeout(function(){
             document.querySelector("body").style.backgroundColor="antiquewhite";
-        },100);
+        },3);
     reset();
     }
 }
