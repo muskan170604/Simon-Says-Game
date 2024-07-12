@@ -7,6 +7,7 @@ let started=false;
 let level=0;
 
 let h2=document.querySelector("h2");
+let h3=document.querySelector("h3");
 
 document.addEventListener("click",function(){
 if(started==false){
@@ -21,7 +22,7 @@ function gameFlash(btn){
 btn.classList.add("flash");
 setTimeout(function(){
     btn.classList.remove("flash");
-},250);
+},600);
 }
 
 function userFlash(btn){
@@ -51,11 +52,11 @@ function checkAns(idx){
         }
         console.log("same value");
     }else{
-        h2.innerHTML=`Game Over!Your score was [<b>${level}</b>] <br> Press Enter key to start the game!`;
+        h3.innerHTML=`Game Over!Your score was [<b>${level}</b>] <br> Press Start key to start the game!`;
         document.querySelector("body").style.backgroundColor="red";
         setTimeout(function(){
             document.querySelector("body").style.backgroundColor="antiquewhite";
-        },150);
+        },100);
     reset();
     }
 }
