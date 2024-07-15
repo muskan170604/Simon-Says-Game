@@ -53,7 +53,7 @@ function checkAns(idx){
         console.log("same value");
         h3.innerText=" "
     }else{
-        h3.innerHTML=`Game Over!Your score was [<b>${level}</b>] <br> Press button which flashed to continue the game!`;
+        h3.innerHTML=`Game Over!Your score was [<b>${level}</b>] <br> Press button which flashed to continue the game! <br> or click reset button to reset the the game!`;
         document.querySelector("body").style.backgroundColor="red";
         setTimeout(function(){
             document.querySelector("body").style.backgroundColor="antiquewhite";
